@@ -1,0 +1,35 @@
+{
+    "name": "especializati/php-githook-sniffer",
+    "type": "library",
+    "description": "Php-GitHook-Sniffer is a simple collection of automated and customizable tasks that you can perform with your git repository through the hooks.",
+    "keywords": [
+        "especializati",
+        "php-githook-sniffer",
+        "hooks",
+        "pre-commit"
+    ],
+    "homepage": "https://github.com/especializati/php-githook-sniffer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "João Roberto",
+            "email": "joaorobertopb@gmail.com",
+            "homepage": "https://github.com/joaorobertopb",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^5.6 || >=7.0 <7.2",
+        "friendsofphp/php-cs-fixer": "2.2.*",
+        "league/pipeline": "0.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "EspecializaTI\\PhpGitHookSniffer\\": "src/"
+        }
+    },
+    "scripts": {
+        "fix-style": "php-cs-fixer --using-cache=no fix src",
+        "install-pre-commit": "php -r \"if(file_exists('./.git')&&file_exists('./src/Hooks/pre-commit')){copy('./src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}\""
+    }
+}

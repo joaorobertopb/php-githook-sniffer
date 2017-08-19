@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ *  Simple PHP Code Sniffer pre-commit for git
+ *  @author  João Roberto <joaorobertopb@gmail.com>
+ */
+
+require __DIR__.'/../../vendor/autoload.php';
+
+use EspecializaTI\PhpGitHookSniffer\Hooks\PreCommit;
+
+$hook = new PreCommit();
+$hook->process();
