@@ -1,7 +1,6 @@
 # Php GitHook Sniffer
 
-[![Latest Version on Packagist][ico-version]][link-packagist] [![Software License][ico-license]](LICENSE.md) [![Build Status][ico-travis]][link-travis] [![Coverage Status][ico-scrutinizer]][link-scrutinizer] [![Quality Score][ico-code-quality]][link-code-quality] [![Total Downloads][ico-downloads]][link-downloads]
-
+[![Build Status][ico-build]][link-build] [![Latest Stable Version][ico-version]][link-packagist] [![Total Downloads][ico-downloads]][link-downloads] [![Latest Unstable Version][ico-unstable]][link-unstable] [![Code Coverage][ico-scrutinizer]][link-scrutinizer] [![Quality Score][ico-code-quality]][link-code-quality] [![Software License][ico-license]](LICENSE.md) 
 
 Php-GitHook-Sniffer is a simple collection of automated tasks that you can perform with your git repository through the hooks.
 
@@ -72,17 +71,19 @@ Coming Soon.
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/especializati/php-githook-sniffer.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/especializati/php-githook-sniffer/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/especializati/php-githook-sniffer.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/especializati/php-githook-sniffer.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/especializati/php-githook-sniffer.svg?style=flat-square
+[ico-version]: https://poser.pugx.org/especializati/php-githook-sniffer/v/stable
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
+[ico-build]: https://scrutinizer-ci.com/g/especializati/php-githook-sniffer/badges/build.png?b=master
+[ico-scrutinizer]: https://scrutinizer-ci.com/g/especializati/php-githook-sniffer/badges/coverage.png?b=master
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/especializati/php-githook-sniffer.svg
+[ico-downloads]: https://poser.pugx.org/especializati/php-githook-sniffer/downloads
+[ico-unstable]: https://poser.pugx.org/especializati/php-githook-sniffer/v/unstable
 
 [link-packagist]: https://packagist.org/packages/especializati/php-githook-sniffer
-[link-travis]: https://travis-ci.org/especializati/php-githook-sniffer
-[link-scrutinizer]: https://scrutinizer-ci.com/g/especializati/php-githook-sniffer/code-structure
+[link-build]: https://scrutinizer-ci.com/g/especializati/php-githook-sniffer/build-status/master
+[link-scrutinizer]: https://scrutinizer-ci.com/g/especializati/php-githook-sniffer/?branch=master
 [link-code-quality]: https://scrutinizer-ci.com/g/especializati/php-githook-sniffer
 [link-downloads]: https://packagist.org/packages/especializati/php-githook-sniffer
 [link-author]: https://github.com/joaorobertopb
 [link-contributors]: ../../contributors
+[link-unstable]: https://packagist.org/packages/especializati/php-githook-sniffer
