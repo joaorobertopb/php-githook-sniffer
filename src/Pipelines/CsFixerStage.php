@@ -25,6 +25,8 @@ class CsFixerStage implements PipelineInterface
             $fileName = trim($file);
             $ext = pathinfo($fileName, PATHINFO_EXTENSION);
 
+            $return = 0;
+
             if ("php" != $ext) {
                 continue;
             }
