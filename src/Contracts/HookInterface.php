@@ -16,9 +16,9 @@ interface HookInterface
     public function retrieveCommitedFiles();
 
     /**
-    * Process git hook
-    *
-    * @return mixed
-    */
+     * Process git hook
+     *
+     * @return mixed
+     */
     public function process();
 }
