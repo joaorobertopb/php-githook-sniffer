@@ -13,7 +13,6 @@ class CsFixerStage implements PipelineInterface
     /**
      * Runs php -l on PHP staged files.
      *
-     * @param array $files An staged files collection
      *
      * @return void
      */
