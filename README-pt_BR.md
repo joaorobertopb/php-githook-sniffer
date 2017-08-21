@@ -1,29 +1,29 @@
 # Php GitHook Sniffer
 
-[README em Português](README-pt_BR.md).
+[README on English](README.md).
 
 [![Build Status][ico-build]][link-build] [![Latest Stable Version][ico-version]][link-packagist] [![Total Downloads][ico-downloads]][link-downloads] [![Latest Unstable Version][ico-unstable]][link-unstable] [![Code Coverage][ico-scrutinizer]][link-scrutinizer] [![Quality Score][ico-code-quality]][link-code-quality] [![Software License][ico-license]](LICENSE.md) 
 
-Php-GitHook-Sniffer is a simple collection of automated tasks that you can perform with your git repository through the hooks.
+Php-GitHook-Sniffer é uma coleção simples de tarefas automatizadas que você pode executar com seu repositório git através dos Hooks ( gatilhos de eventos do Git ).
 
-### Available hooks
+### Hooks disponíveis
 
 * pre-commit
 
 ### pre-commit
 
-Check the commited files:
+Verifica os arquivos commitados:
 
-* Check PHP Syntax (with PHPLint)
-* Fix code style according to PSR2 standard
+* Verifica a sintaxe dos arquivos PHP (com PHPLint)
+* Corrige o estilo do código de acordo com os padrões PSR2
 
-### Other Hooks
+### Outros Hooks
 
-Coming Soon.
+Em breve.
 
-## Install
+## Instalação
 
-Add `especializati/php-githook-sniffer` as a development dependency in `composer.json`
+Adicione `especializati/php-githook-sniffer` como uma dependência de desenvolvimento no arquivo `composer.json`
 
 ```
 "require-dev": {
@@ -31,19 +31,19 @@ Add `especializati/php-githook-sniffer` as a development dependency in `composer
 }
 ```
 
-Or via Composer
+Ou via Composer
 
 ``` bash
 $ composer require especializati/php-githook-sniffer --dev
 ```
 
-Copy src/Hooks/pre-commit for .git/hooks. ( Execution Permission Required )
+Copie `src/Hooks/pre-commit` para `.git/hooks`. ( Necessário execução de permissão )
 
 ``` bash
 $ php -r "if(file_exists('./.git')&&file_exists('./src/Hooks/pre-commit')){copy('./src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}"
 ```
 
-or
+Ou
 
 ```
 "scripts": {
@@ -56,22 +56,22 @@ or
 }
 ```
 
-## Change log
+## Registro de mudanças
 
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+Consulte [CHANGELOG](CHANGELOG.md) Para mais informações sobre o que mudou recentemente.
 
-## Testing
+## Testes
 
-Coming Soon.
+Em breve.
 
-## Credits
+## Créditos
 
 - [João Roberto][link-author]
 - [All Contributors][link-contributors]
 
-## License
+## Licença
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Consulte [License File](LICENSE.md) para mais informações.
 
 [ico-version]: https://poser.pugx.org/especializati/php-githook-sniffer/v/stable
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
