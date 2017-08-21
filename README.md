@@ -40,7 +40,7 @@ $ composer require especializati/php-githook-sniffer --dev
 Copy src/Hooks/pre-commit for .git/hooks. ( Execution Permission Required )
 
 ``` bash
-$ php -r "if(file_exists('./.git')&&file_exists('./src/Hooks/pre-commit')){copy('./src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}"
+$ php -r "if(file_exists('./.git')&&file_exists('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit')){copy('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}"
 ```
 
 or
@@ -48,10 +48,10 @@ or
 ```
 "scripts": {
     "post-install-cmd": [
-      "php -r \"if(file_exists('./.git')&&file_exists('./src/Hooks/pre-commit')){copy('./src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}\""
+      "php -r \"if(file_exists('./.git')&&file_exists('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit')){copy('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}\""
     ],
     "post-update-cmd": [
-      "php -r \"if(file_exists('./.git')&&file_exists('./src/Hooks/pre-commit')){copy('./src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}\""
+      "php -r \"if(file_exists('./.git')&&file_exists('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit')){copy('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}\""
     ]
 }
 ```
