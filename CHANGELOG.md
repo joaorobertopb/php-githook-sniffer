@@ -7,6 +7,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.0.2] - 2017-10-07
+### Added
+- .gitattributes file
+
+### Changed
+- Move Issue template file to .github folder
+- Trim trailling whitespace in .md files
+
+### Fixed
+- Fix related path to php-cs-fixer
+
 ## 0.0.1 - 2017-08-19
 ### Added
 - Links to latest released version in previous versions.
@@ -26,4 +37,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Security
 - Nothing
 
-[Unreleased]: https://github.com/especializati/php-githook-sniffer/compare/0.0.1...HEAD
+[Unreleased]: https://github.com/especializati/php-githook-sniffer/compare/0.0.2...HEAD
+
+[0.0.2]: https://github.com/especializati/php-githook-sniffer/compare/0.0.1...0.0.2
