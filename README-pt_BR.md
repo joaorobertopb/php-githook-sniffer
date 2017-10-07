@@ -2,9 +2,11 @@
 
 [README on English](README.md).
 
+[O que são git Hooks?](https://goo.gl/Qt3VWS)
+
 [![Build Status][ico-build]][link-build] [![Latest Stable Version][ico-version]][link-packagist] [![Total Downloads][ico-downloads]][link-downloads] [![Latest Unstable Version][ico-unstable]][link-unstable] [![Code Coverage][ico-scrutinizer]][link-scrutinizer] [![Quality Score][ico-code-quality]][link-code-quality] [![Software License][ico-license]](LICENSE.md)
 
-Php-GitHook-Sniffer é uma coleção simples de tarefas automatizadas que você pode executar com seu repositório git através dos Hooks ( gatilhos de eventos do Git ).
+Php-GitHook-Sniffer é uma coleção simples de tarefas automatizadas que você pode executar com seu repositório git através dos [Hooks](https://goo.gl/Qt3VWS) ( gatilhos de eventos do Git ).
 
 ### Hooks disponíveis
 
@@ -12,10 +14,20 @@ Php-GitHook-Sniffer é uma coleção simples de tarefas automatizadas que você 
 
 ### pre-commit
 
-Verifica os arquivos commitados:
+Verifica os arquivos comitados:
 
 * Verifica a sintaxe dos arquivos PHP (com PHPLint)
 * Corrige o estilo do código de acordo com os padrões PSR2
+
+#### Exemplos
+
+##### Verificando sintaxe:
+
+![php-lint](https://i.imgur.com/Spx81FH.png)
+
+##### Aplicando regras PSR2:
+
+![php-cs-fix](https://i.imgur.com/a62wAVP.png)
 
 ### Outros Hooks
 
@@ -27,7 +39,7 @@ Adicione `especializati/php-githook-sniffer` como uma dependência de desenvolvi
 
 ```
 "require-dev": {
-    "especializati/php-githook-sniffer": "0.0.1"
+    "especializati/php-githook-sniffer": "^0.0.1"
 }
 ```
 

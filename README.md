@@ -17,6 +17,16 @@ Check the commited files:
 * Check PHP Syntax (with PHPLint)
 * Fix code style according to PSR2 standard
 
+#### Examples
+
+##### verifying syntax:
+
+![php-lint](https://i.imgur.com/Spx81FH.png)
+
+##### Applying PSR2 rules:
+
+![php-cs-fix](https://i.imgur.com/a62wAVP.png)
+
 ### Other Hooks
 
 Coming Soon.
@@ -27,7 +37,7 @@ Add `especializati/php-githook-sniffer` as a development dependency in `composer
 
 ```
 "require-dev": {
-    "especializati/php-githook-sniffer": "0.0.1"
+    "especializati/php-githook-sniffer": "^0.0.1"
 }
 ```
 
