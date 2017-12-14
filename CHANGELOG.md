@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.0.3] - 2017-12-14
+### Changed
+- Update php version constrants ( enable support php < 8.0 )
+
 ## [0.0.2] - 2017-10-07
 ### Added
 - .gitattributes file
@@ -25,18 +29,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Changed
 - Initializing variable $return in CsFixer and Lint stage
 
-### Deprecated
-- Nothing
-
-### Fixed
-- Nothing
-
-### Removed
-- Nothing
-
-### Security
-- Nothing
-
-[Unreleased]: https://github.com/especializati/php-githook-sniffer/compare/0.0.2...HEAD
+[Unreleased]: https://github.com/especializati/php-githook-sniffer/compare/0.0.3...HEAD
 
 [0.0.2]: https://github.com/especializati/php-githook-sniffer/compare/0.0.1...0.0.2
+[0.0.3]: https://github.com/especializati/php-githook-sniffer/compare/0.0.3...0.0.3
