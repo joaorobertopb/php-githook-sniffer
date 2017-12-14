@@ -37,7 +37,7 @@ Add `especializati/php-githook-sniffer` as a development dependency in `composer
 
 ```
 "require-dev": {
-    "especializati/php-githook-sniffer": "^0.0.1"
+    "especializati/php-githook-sniffer": "~0.0.3"
 }
 ```
 
