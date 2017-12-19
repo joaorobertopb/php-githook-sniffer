@@ -39,7 +39,7 @@ Adicione `especializati/php-githook-sniffer` como uma dependência de desenvolvi
 
 ```
 "require-dev": {
-    "especializati/php-githook-sniffer": "~0.0.3"
+    "especializati/php-githook-sniffer": "~0.0.4"
 }
 ```
 
