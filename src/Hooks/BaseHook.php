@@ -4,17 +4,16 @@ namespace JoaoRobertoPB\PhpGitHookSniffer\Hooks;
 
 use JoaoRobertoPB\PhpGitHookSniffer\Contracts\HookInterface;
 
-
 abstract class BaseHook implements HookInterface
 {
     /**
-     * Retrieve commited files
+     * Retrieve commited files.
      *
-     * @return Array
+     * @return array
      */
     public function retrieveCommitedFiles()
     {
-        $output = array();
+        $output = [];
 
         exec('git diff --cached --name-only --diff-filter=ACMR', $output);
 
@@ -22,7 +21,7 @@ abstract class BaseHook implements HookInterface
     }
 
     /**
-     * Process git hook
+     * Process git hook.
      *
      * @return mixed
      */

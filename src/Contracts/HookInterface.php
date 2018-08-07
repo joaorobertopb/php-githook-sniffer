@@ -5,14 +5,14 @@ namespace JoaoRobertoPB\PhpGitHookSniffer\Contracts;
 interface HookInterface
 {
     /**
-     * Retrieve commited files
+     * Retrieve commited files.
      *
-     * @return Array
+     * @return array
      */
     public function retrieveCommitedFiles();
 
     /**
-     * Process git hook
+     * Process git hook.
      *
      * @return mixed
      */

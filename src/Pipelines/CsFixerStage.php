@@ -22,12 +22,12 @@ class CsFixerStage implements PipelineInterface
 
             $return = 0;
 
-            if ("php" != $ext) {
+            if ('php' != $ext) {
                 continue;
             }
 
-            $csOutput = array();
-            exec(__DIR__ . "/../../../../../vendor/bin/php-cs-fixer --using-cache=no fix " . escapeshellarg($fileName), $csOutput, $return);
+            $csOutput = [];
+            exec(__DIR__.'/../../../../../vendor/bin/php-cs-fixer --using-cache=no fix '.escapeshellarg($fileName), $csOutput, $return);
             exec("git add {$fileName}");
         }
 

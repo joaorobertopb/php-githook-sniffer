@@ -21,12 +21,12 @@ class LintStage implements PipelineInterface
 
             $return = 0;
 
-            if ("php" != $ext) {
+            if ('php' != $ext) {
                 continue;
             }
 
-            $lintOutput = array();
-            exec("php -l " . escapeshellarg($fileName), $lintOutput, $return);
+            $lintOutput = [];
+            exec('php -l '.escapeshellarg($fileName), $lintOutput, $return);
         }
 
         if ($return != 0) {

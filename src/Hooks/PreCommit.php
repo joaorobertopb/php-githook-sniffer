@@ -2,14 +2,14 @@
 
 namespace JoaoRobertoPB\PhpGitHookSniffer\Hooks;
 
-use JoaoRobertoPB\PhpGitHookSniffer\Pipelines\CsFixerStage;
-use JoaoRobertoPB\PhpGitHookSniffer\Pipelines\LintStage;
 use League\Pipeline\Pipeline;
+use JoaoRobertoPB\PhpGitHookSniffer\Pipelines\LintStage;
+use JoaoRobertoPB\PhpGitHookSniffer\Pipelines\CsFixerStage;
 
 class PreCommit extends BaseHook
 {
     /**
-     * Process pre-commit git hook
+     * Process pre-commit git hook.
      *
      * @return void
      */
