@@ -1,14 +1,14 @@
 {
-    "name": "especializati/php-githook-sniffer",
+    "name": "joaorobertopb/php-githook-sniffer",
     "type": "library",
     "description": "Php-GitHook-Sniffer is a simple collection of automated and customizable tasks that you can perform with your git repository through the hooks.",
     "keywords": [
-        "especializati",
+        "joaorobertopb",
         "php-githook-sniffer",
         "hooks",
         "pre-commit"
     ],
-    "homepage": "https://github.com/especializati/php-githook-sniffer",
+    "homepage": "https://github.com/joaorobertopb/php-githook-sniffer",
     "license": "MIT",
     "authors": [
         {
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EspecializaTI\\PhpGitHookSniffer\\": "src/"
+            "JoaoRobertoPB\\PhpGitHookSniffer\\": "src/"
         }
     },
     "scripts": {

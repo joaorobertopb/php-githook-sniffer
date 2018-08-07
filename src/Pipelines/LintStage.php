@@ -1,13 +1,9 @@
 <?php
 
-namespace EspecializaTI\PhpGitHookSniffer\Pipelines;
+namespace JoaoRobertoPB\PhpGitHookSniffer\Pipelines;
 
-use EspecializaTI\PhpGitHookSniffer\Contracts\PipelineInterface;
+use JoaoRobertoPB\PhpGitHookSniffer\Contracts\PipelineInterface;
 
-/**
- * Class LintStage
- * @package EspecializaTI\Pipelines
- */
 class LintStage implements PipelineInterface
 {
     /**

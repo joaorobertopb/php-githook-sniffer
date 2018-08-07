@@ -1,15 +1,11 @@
 <?php
 
-namespace EspecializaTI\PhpGitHookSniffer\Hooks;
+namespace JoaoRobertoPB\PhpGitHookSniffer\Hooks;
 
-use EspecializaTI\PhpGitHookSniffer\Pipelines\CsFixerStage;
-use EspecializaTI\PhpGitHookSniffer\Pipelines\LintStage;
+use JoaoRobertoPB\PhpGitHookSniffer\Pipelines\CsFixerStage;
+use JoaoRobertoPB\PhpGitHookSniffer\Pipelines\LintStage;
 use League\Pipeline\Pipeline;
 
-/**
- * Class PreCommit
- * @package EspecializaTI\Hooks
- */
 class PreCommit extends BaseHook
 {
     /**

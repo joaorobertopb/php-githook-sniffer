@@ -1,13 +1,10 @@
 <?php
 
-namespace EspecializaTI\PhpGitHookSniffer\Hooks;
+namespace JoaoRobertoPB\PhpGitHookSniffer\Hooks;
 
-use EspecializaTI\PhpGitHookSniffer\Contracts\HookInterface;
+use JoaoRobertoPB\PhpGitHookSniffer\Contracts\HookInterface;
 
-/**
- * Class BaseHook
- * @package EspecializaTI\Hooks
- */
+
 abstract class BaseHook implements HookInterface
 {
     /**

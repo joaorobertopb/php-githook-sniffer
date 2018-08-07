@@ -35,24 +35,24 @@ Em breve.
 
 ## Instalação
 
-Adicione `especializati/php-githook-sniffer` como uma dependência de desenvolvimento no arquivo `composer.json`
+Adicione `joaorobertopb/php-githook-sniffer` como uma dependência de desenvolvimento no arquivo `composer.json`
 
 ```
 "require-dev": {
-    "especializati/php-githook-sniffer": "~0.0.5"
+    "joaorobertopb/php-githook-sniffer": "~0.0.5"
 }
 ```
 
 Ou via Composer
 
 ``` bash
-$ composer require especializati/php-githook-sniffer --dev
+$ composer require joaorobertopb/php-githook-sniffer --dev
 ```
 
 Copie `src/Hooks/pre-commit` para `.git/hooks`. ( Necessário execução de permissão )
 
 ``` bash
-$ php -r "if(file_exists('./.git')&&file_exists('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit')){copy('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}"
+$ php -r "if(file_exists('./.git')&&file_exists('./vendor/joaorobertopb/php-githook-sniffer/src/Hooks/pre-commit')){copy('./vendor/joaorobertopb/php-githook-sniffer/src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}"
 ```
 
 Ou
@@ -60,10 +60,10 @@ Ou
 ```
 "scripts": {
     "post-install-cmd": [
-      "php -r \"if(file_exists('./.git')&&file_exists('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit')){copy('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}\""
+      "php -r \"if(file_exists('./.git')&&file_exists('./vendor/joaorobertopb/php-githook-sniffer/src/Hooks/pre-commit')){copy('./vendor/joaorobertopb/php-githook-sniffer/src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}\""
     ],
     "post-update-cmd": [
-      "php -r \"if(file_exists('./.git')&&file_exists('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit')){copy('./vendor/especializati/php-githook-sniffer/src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}\""
+      "php -r \"if(file_exists('./.git')&&file_exists('./vendor/joaorobertopb/php-githook-sniffer/src/Hooks/pre-commit')){copy('./vendor/joaorobertopb/php-githook-sniffer/src/Hooks/pre-commit','./.git/hooks/pre-commit');chmod('./.git/hooks/pre-commit',0777);}\""
     ]
 }
 ```
@@ -85,19 +85,19 @@ Em breve.
 
 The MIT License (MIT). Consulte [License File](LICENSE.md) para mais informações.
 
-[ico-version]: https://poser.pugx.org/especializati/php-githook-sniffer/v/stable
+[ico-version]: https://poser.pugx.org/joaorobertopb/php-githook-sniffer/v/stable
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
-[ico-build]: https://scrutinizer-ci.com/g/especializati/php-githook-sniffer/badges/build.png?b=master
-[ico-scrutinizer]: https://scrutinizer-ci.com/g/especializati/php-githook-sniffer/badges/coverage.png?b=master
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/especializati/php-githook-sniffer.svg
-[ico-downloads]: https://poser.pugx.org/especializati/php-githook-sniffer/downloads
-[ico-unstable]: https://poser.pugx.org/especializati/php-githook-sniffer/v/unstable
+[ico-build]: https://scrutinizer-ci.com/g/joaorobertopb/php-githook-sniffer/badges/build.png?b=master
+[ico-scrutinizer]: https://scrutinizer-ci.com/g/joaorobertopb/php-githook-sniffer/badges/coverage.png?b=master
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/joaorobertopb/php-githook-sniffer.svg
+[ico-downloads]: https://poser.pugx.org/joaorobertopb/php-githook-sniffer/downloads
+[ico-unstable]: https://poser.pugx.org/joaorobertopb/php-githook-sniffer/v/unstable
 
-[link-packagist]: https://packagist.org/packages/especializati/php-githook-sniffer
-[link-build]: https://scrutinizer-ci.com/g/especializati/php-githook-sniffer/build-status/master
-[link-scrutinizer]: https://scrutinizer-ci.com/g/especializati/php-githook-sniffer/?branch=master
-[link-code-quality]: https://scrutinizer-ci.com/g/especializati/php-githook-sniffer
-[link-downloads]: https://packagist.org/packages/especializati/php-githook-sniffer
+[link-packagist]: https://packagist.org/packages/joaorobertopb/php-githook-sniffer
+[link-build]: https://scrutinizer-ci.com/g/joaorobertopb/php-githook-sniffer/build-status/master
+[link-scrutinizer]: https://scrutinizer-ci.com/g/joaorobertopb/php-githook-sniffer/?branch=master
+[link-code-quality]: https://scrutinizer-ci.com/g/joaorobertopb/php-githook-sniffer
+[link-downloads]: https://packagist.org/packages/joaorobertopb/php-githook-sniffer
 [link-author]: https://github.com/joaorobertopb
 [link-contributors]: ../../contributors
-[link-unstable]: https://packagist.org/packages/especializati/php-githook-sniffer
+[link-unstable]: https://packagist.org/packages/joaorobertopb/php-githook-sniffer

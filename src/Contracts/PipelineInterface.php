@@ -1,13 +1,9 @@
 <?php
 
-namespace EspecializaTI\PhpGitHookSniffer\Contracts;
+namespace JoaoRobertoPB\PhpGitHookSniffer\Contracts;
 
 use League\Pipeline\StageInterface;
 
-/**
- * Interface PipelineInterface
- * @package EspecializaTI\Contracts
- */
-interface PipelineInterface extends StageInterface
+interface JoaoRobertoPB extends StageInterface
 {
 }

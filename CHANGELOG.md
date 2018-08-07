@@ -1,6 +1,6 @@
 # Changelog
 
-All Notable changes to `especializati/php-githook-sniffer` will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
+All Notable changes to `joaorobertopb/php-githook-sniffer` will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 

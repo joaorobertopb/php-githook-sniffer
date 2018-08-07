@@ -1,11 +1,7 @@
 <?php
 
-namespace EspecializaTI\PhpGitHookSniffer\Contracts;
+namespace JoaoRobertoPB\PhpGitHookSniffer\Contracts;
 
-/**
- * Interface HookInterface
- * @package EspecializaTI\Contracts
- */
 interface HookInterface
 {
     /**
